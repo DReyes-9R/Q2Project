@@ -1,20 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://t4.ftcdn.net/jpg/11/47/77/93/360_F_1147779328_smpDXtq14q3SJOk1oHzHgGz4n7Ao9xax.jpg');
-    background-size: cover; /* Ensures the image covers the entire viewport */
-    background-repeat: no-repeat; /* Prevents tiling of the image */
-    background-attachment: fixed; /* Makes the background stay in place while scrolling */
-    background-position: center; /* Centers the image */
-    color: #333; /* Sets a readable text color */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #333; 
     margin: 0;
     padding: 0;
 }
 
-
 /* Navbar */
-
 .navbar .nav-link {
-    color: #000; /* Change to your desired color */
+    color: #000; 
     transition: color 0.3s ease;
 }
 
@@ -22,7 +20,7 @@ body {
     color: black;
 }
 .navbar .nav-link:hover {
-    color: #ff6600; /* Change the hover color */
+    color: #ff6600; 
 }
 
 .navbar {
@@ -75,12 +73,6 @@ h2 {
     border-color: #e6b800;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: #fff;
-}
-
 .modal-content {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -127,9 +119,9 @@ footer {
 }
 
 .card-img-top {
-    height: 250px;  /* Set a fixed height for all images */
-    width: 100%;    /* Ensure the width is responsive */
-    object-fit: cover; /* Maintain aspect ratio while filling the space */
+    height: 250px; 
+    width: 100%; 
+    object-fit: cover; 
 }
 
 #recipe h2 {
@@ -158,7 +150,7 @@ footer {
 }
 
 #backToTop {
-    display: none; /* Initially hidden */
+    display: none; 
     padding: 10px 15px;
     font-size: 14px;
 }
@@ -167,3 +159,8 @@ h5{
     text-align: center;
 }
 
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
